@@ -12,10 +12,18 @@
     </header>
     <section>
         <div id="conteudo">
-            Ano de nascimento: <input type="number" name="datanasc" id="datanasc">
-            Sexo: <input type="checkbox" name="sexo" id="sexo"> Masculino <input type="checkbox" name="sexo" id="sexo"> Feminino
-            <input type="button" value="Verificar">
-            <p>Preencha os dados aima para ver o resultado</p>
+            <p>Ano de nascimento: <input type="number" name="txtano" id="txtano" min="1"></p>
+            <p>Sexo: 
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem"> 
+                <label for="fem">Feminino</label>
+            </p>
+            <input type="button" value="Verificar" onclick="verificar()">
+            <div id="res">
+                <p>Preencha os dados acima para ver o resultado!</p>
+                
+            </div>
         </div>
     </section>
     <footer>&copy;Maycosoft</footer>
