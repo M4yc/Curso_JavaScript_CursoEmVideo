@@ -48,19 +48,19 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
 }
 
-.divtitle {
+#msg {
     align-items: center;
     text-align: center;
     padding-bottom: 10px;
     font: bold 18pt Roboto;
 }
 
-.divimg {
+#foto {
     align-items: center;
     text-align: center;
 }
 
-img {
+#imagem {
     align-items: center;
     border-radius: 50%;
     height: 250px;
