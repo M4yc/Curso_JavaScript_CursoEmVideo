@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercicios</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Modelo de exercicios</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
         <div id="conteudo" class="conteudo">
-            <h2>Titulo</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, corrupti! Dolor vitae repudiandae quam? Tempore, delectus neque quos aliquid, sit voluptatem corrupti fugiat expedita aspernatur quasi error culpa! Fugiat, voluptatem.</p>
+            <p>Número: <input type="number" name="num" id="txtn">
+            <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
+        </div>
+        <div id="res">
+            <select name="tabuada" id="seltab" size="10">
+                <option >Digite um numero acima</option>
+            </select>
         </div>
     </section>
     <footer>
