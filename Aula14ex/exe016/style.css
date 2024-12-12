@@ -12,9 +12,11 @@ header {
     text-align: center;
 }
 .conteudo {
-    text-align: center;
-    align-items: center;
     
+    
+}
+#res{
+    padding-top: 4px;
 }
 section {
     background: white;

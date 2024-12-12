@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercicios</title>
+    <title>Super Contador</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Modelo de exercicios</h1>
+        <h1>Vamos contar</h1>
     </header>
     <section>
         <div id="conteudo" class="conteudo">
-            <h2>Titulo</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, corrupti! Dolor vitae repudiandae quam? Tempore, delectus neque quos aliquid, sit voluptatem corrupti fugiat expedita aspernatur quasi error culpa! Fugiat, voluptatem.</p>
+            <p>Inicio: <input type="number" name="inicio" id="inicio"></p>
+            <p>Fim: <input type="number" name="inicio" id="fim"></p>
+            <p>Passo: <input type="number" name="inicio" id="passo"></p>
+            <input type="button" value="Contar" onclick="Contar()">
+        </div>
+        <div id="res">
+            Preparando a contagem ...
         </div>
     </section>
     <footer>
